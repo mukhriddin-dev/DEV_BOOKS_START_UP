@@ -1,0 +1,16 @@
+.slick-dots{
+  display: flex !important;
+  justify-content: flex-start !important;
+  margin: 70px 90px !important;
+  gap: 8px !important;
+  width: 300px !important;
+} 
+
+
+.slick-dots button{
+    
+    height: 6px !important;
+    width: 30px !important;
+    margin: 0 8px !important;
+    border-radius: 10px !important;
+}

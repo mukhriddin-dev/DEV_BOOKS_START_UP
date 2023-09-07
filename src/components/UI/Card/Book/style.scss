@@ -1,0 +1,14 @@
+.card_b {
+    border-radius: 15px;
+    background-color:  #ffff;
+    transition:  0.2s linear;
+    width: 165px;
+    flex-shrink: 0;
+    height: 321px;
+}
+
+
+
+.card_b:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}

@@ -1,14 +1,16 @@
 import React from "react";
 import {Outlet} from "react-router-dom";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 const Layout = () => {
     return (
-        <div>
-            {/* header */}
-
-            {/* main routing <Outlet/> */}
-
-            {/* footer */}
-        </div>
+        <>
+            <Header />
+            <main className="m-h-screen">
+                <Outlet />
+            </main>
+            <Footer />
+        </>
     );
 };
 

@@ -1,0 +1,14 @@
+.card_a {
+    border-radius: 15px;
+    background-color:  #191919;
+    transition:  0.2s linear;
+    width: 173.33px;
+    height: 249.074px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+
+.card_a:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}

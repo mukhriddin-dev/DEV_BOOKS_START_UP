@@ -1,10 +1,12 @@
 import "./style.scss";
+import Header from "../Header"
 
 const index = () => {
     return (
-        <section>
-            <h1>Layout</h1>
-        </section>
+        <>
+            <Header/>
+            
+        </>
     );
 };
 

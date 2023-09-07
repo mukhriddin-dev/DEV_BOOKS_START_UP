@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "ROTTER";
+  src: url("./assets/fonts/Rotter.otf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -18,12 +23,18 @@ ul {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'ROTTER';
+  /* background-color: #191919; */
 }
 
 
 .container{
-  max-width: 1240px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 10px;
+}
+
+.ant-btn-primary{
+  background-color:rgb(68, 116, 236) !important;
+  color:#fff;
 }
